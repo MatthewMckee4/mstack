@@ -1,0 +1,11 @@
+mstack
+Copyright (c) 2026 Matthew McKee
+
+Derived in part from pstack by Lauren Tan (poteto).
+Upstream: https://github.com/cursor/plugins/tree/main/pstack
+Copyright (c) 2026 Lauren Tan. MIT licensed.
+
+The unmodified selected source and its original license are retained under upstream/.
+upstream.lock.json identifies the exact repository commit and source file hashes.
+The runtime skills are a focused adaptation for Codex and optional T3 Code integration;
+they are not endorsed by the upstream author, Cursor, OpenAI, or T3 Code.

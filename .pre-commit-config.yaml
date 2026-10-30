@@ -1,0 +1,15 @@
+repos:
+  - repo: local
+    hooks:
+      - id: mstack-package
+        name: Validate mstack package and upstream integrity
+        entry: node scripts/check.mjs
+        language: system
+        pass_filenames: false
+        always_run: true
+      - id: mstack-tests
+        name: Test package integrity protections
+        entry: node --test tests/package.test.mjs
+        language: system
+        pass_filenames: false
+        always_run: true

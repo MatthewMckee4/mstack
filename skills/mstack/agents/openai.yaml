@@ -1,0 +1,4 @@
+interface:
+  display_name: "mstack"
+  short_description: "Understand, implement, and verify engineering work"
+  default_prompt: "Use $mstack to investigate this task, implement the change, and verify the result."

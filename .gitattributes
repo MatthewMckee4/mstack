@@ -1,0 +1,2 @@
+# Preserve the byte-identical upstream snapshot, including its original whitespace.
+upstream/** -whitespace

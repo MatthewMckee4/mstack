@@ -1,0 +1,4 @@
+interface:
+  display_name: "mstack review"
+  short_description: "Review changes for concrete defects and regressions"
+  default_prompt: "Use $mstack-review to examine this change and report actionable findings with evidence."
